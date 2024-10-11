@@ -1,0 +1,23 @@
+{
+  "name": "connectors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "1.10.0",
+    "@grpc/grpc-js": "^1.11.3",
+    "@protobuf-ts/grpc-transport": "^2.9.4",
+    "@protobuf-ts/runtime": "^2.9.4",
+    "@protobuf-ts/runtime-rpc": "^2.9.4",
+    "google-protobuf": "^3.21.4",
+    "grpc-web": "^1.5.0",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
